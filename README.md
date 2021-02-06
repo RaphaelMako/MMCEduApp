@@ -41,3 +41,11 @@ keep it organized and to make sure that we are able to track all of the differen
 - the learners that are on the campaign
 - the campaign description
 - what step of the progress it's at
+
+# General
+So moving on to the general set up, we want this to be useable by all people and allow for updates throughout multiple different 
+people's computers. Another possible thing that could be added is a log of different updates (however that may prove to be slightly
+unecessary, and we will only do it if it seems mandatory). Visually it doesn't need to be stunning from the get go, the main goal 
+right now is just going to be getting it up and running. We can start with a purely text file. Moreover, this is just to facilitate
+everyone's understanding of what's going on regarding the education campaign and it is to make sure we don't let anyone slip
+through the cracks.
