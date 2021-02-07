@@ -1,8 +1,8 @@
 import java.util.ArrayList;
 
 public class Learner {
-    string name;
-    string onboarder;
+    String name;
+    String onboarder;
     ArrayList<String> pastCampaigns;
     String currentCampaign;
     String dateAdded;

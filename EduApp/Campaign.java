@@ -1,11 +1,9 @@
 import java.util.ArrayList;
 
-import org.graalvm.compiler.core.common.alloc.Trace;
-
 public class Campaign {
     Organization organization;
     ArrayList<Learner> learners;
-    string campaignDescription;
+    String campaignDescription;
     int progress;
     boolean onTrack;
     String[] leaders;
@@ -16,10 +14,10 @@ public class Campaign {
         this.campaignDescription = campaignDescription;
         this.leaders = leaders;
         this.progress = 0;
-        this.onTrack = 1;
+        this.onTrack = true;
     }
 
-    public string getCampaignDescription() {
+    public String getCampaignDescription() {
         return campaignDescription;
     }
 

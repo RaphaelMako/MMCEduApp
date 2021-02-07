@@ -1,9 +1,10 @@
+import java.util.ArrayList;
+
 public class Organization {
-    string name;
-    string[] MMCcontacts;
-    string campaignDescription;
-    string description;
-    int dueDate;
+    String name;
+    String[] MMCcontacts;
+    ArrayList<Campaign> pastCampaigns;
+    String description;
     String dateAdded;
     String contact;
 
@@ -19,24 +20,24 @@ public class Organization {
         return name;
     }
 
-    public String getContacts() {
+    public String[] getContacts() {
         return MMCcontacts;
     }
 
-    public ArrayList<String> getCampaignDescription() {
-        return campaignDescription;
+    public void setMMCcontacts(String[] MMCcontacts) {
+        this.MMCcontacts = MMCcontacts;
     }
 
-    public void addCampaignDescription(String description) {
-        this.pastCampaigns.add(description);
+    public ArrayList<Campaign> getPastCampaigns() {
+        return pastCampaigns;
     }
 
-    public int getdueDate() {
-        return dueDate;
+    public void addPastCampaign(Campaign campaign) {
+        this.pastCampaigns.add(campaign);
     }
 
-    public void setDueDate(int date) {
-        this.dueDate = date;
+    public String getDescription() {
+        return description;
     }
 
      public String getDateAdded() {
